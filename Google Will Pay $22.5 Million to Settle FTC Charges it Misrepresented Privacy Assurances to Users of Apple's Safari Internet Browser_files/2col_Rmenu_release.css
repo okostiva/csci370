@@ -1,0 +1,35 @@
+/* CSS by Jonathan B. Morgan, 2007 */
+
+div#container {/*This container is residual from when I used negative margins to create the columns, but since it didn't work in older browsers I had to float the columns right and left and not have a 3rd margin option.*/
+	position: relative;
+	padding-top: 15px;
+	clear: both;
+}
+
+
+div#center {
+	margin: 0px;
+	float:left;
+	position: relative;
+	width: 525px;
+	padding: 0px 20px;       /* CC padding */
+	border-right: 0px solid #DEDEDE;
+	border-left: 0px solid #DEDEDE;
+}
+
+
+div#right {
+	position: relative;
+	float:right;
+	width: 194px;             /* RC width */
+	padding: 0 10px 0 0px;         /* RC padding */
+}
+
+
+div#container .column {/* padding at the top of the columns - needs to be after all the column info or it messes up the display */
+	margin-top: .5em; 
+}
+
+	
+	
+	

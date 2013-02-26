@@ -1,0 +1,85 @@
+/*****************************************************************************
+Zinger Newsvine
+*****************************************************************************/
+
+.j_widget_zinger_newsvine .header {
+    margin-bottom:10px;
+}
+
+.j_widget_zinger_newsvine .footer {
+    display:none;
+}
+
+.j_widget_zinger_newsvine .footer .contact_us,
+.j_widget_zinger_newsvine .footer .register_new,
+.j_widget_zinger_newsvine .footer .reset_password {
+    float:left;
+    margin-right:10px;
+}
+
+.j_widget_zinger_newsvine .controls {
+    margin-bottom:10px;
+}
+
+.j_widget_zinger_newsvine .controls .inputs {
+    float:left;
+    display:inline;
+    margin-right:10px;
+}
+
+.j_widget_zinger_newsvine .controls input {
+}
+
+.j_widget_zinger_newsvine .controls form {
+    display:none;
+}
+
+.j_widget_zinger_newsvine .controls input[type="submit"] {
+/*  background-color: #666;
+    font-weight: bold;
+    color: #ddd;
+    padding: 4px 7px;
+    border: none;
+    margin-left:10px;
+    cursor:pointer;
+*/
+}
+.j_widget_zinger_newsvine input.email,
+.j_widget_zinger_newsvine input.password {
+    margin-right: 10px;
+    border-radius: 3px;
+    padding: 4px 4px;
+    border: 1px solid #aaa;
+}
+
+.j_widget_zinger_newsvine .status {
+    display: none;
+    font-weight: bold;
+    font-style: normal;
+    font-size:12px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    margin: 15px 0;
+}
+
+.j_widget_zinger_newsvine h2.success {
+    margin-top: 20px;
+    color: #008b12;
+    font-weight: bold;
+}
+.j_widget_zinger_newsvine .status.success {
+    color: #008b12;
+    padding: 3px 6px;
+    background-color: rgba(0,126,0,0.1);
+}
+
+.j_widget_zinger_newsvine .status.error {
+    color:#aa0000;
+    padding: 3px 6px;
+    background-color: rgba(255,34,14,0.1);
+}
+.j_widget_zinger_newsvine .reset_password a,
+.j_widget_zinger_newsvine .start_over a
+ {
+}
+

@@ -1,0 +1,199 @@
+
+
+/*****************************************************************************
+FB Activity widget -- all editions (story, video, cover)
+*****************************************************************************/
+
+.j_widget_fb_activity .sharing_bar {display: none;}
+.j_widget_fb_activity .fb_connected {display:none;} /* need to hide both after render since we're now waiting for window.onload to fire configureWidget */
+.j_widget_fb_activity .fb_notConnected {display:none;}
+
+.j_widget_fb_sharing .j_widget_zinger_login {float:left; position:relative; top:-10px; width:30px; height:30px; margin-right:5px;}
+
+.j_widget_fb_activity .j_widget_fb_sharing .red {color:red; text-indent:30px;}
+
+.j_widget_fb_activity {font-family: Arial, sans-serif; font-size:15px;}
+
+
+
+/* by default turn off all plugins */
+.j_widget_fb_activity .j-plugin-like-button {
+	display:none;
+}
+
+.j_widget_fb_activity .j-plugin-activity {
+	display:none;
+}
+
+.j_widget_fb_activity .j-plugin-recommendations {
+	display: none;
+}
+
+.j_widget_fb_activity .j-plugin-recommend-button {
+	display: none;
+}
+
+.j_widget_fb_activity .hide_like,
+.j_widget_fb_activity .j-plugin-sharing-like-box,
+.j_widget_fb_activity .j-plugin-not-sharing-like-box {
+	display:none;
+}
+
+
+
+
+/*****************************************************************************
+FB Activity widget -- story edition
+*****************************************************************************/
+
+.j_widget_fb_activity.j_edition_story {margin:15px 0;}
+.j_widget_fb_activity.j_edition_story .fb_connected .fb-activity {float:left; margin-right:20px; margin-left:-10px;}
+.j_widget_fb_activity.j_edition_story .fb_connected .fb-like-box {margin-top:19px;}
+.j_widget_fb_activity.j_edition_story h2 {color:#444; font-size:15px; margin: 5px 0 0 0; clear:both;}
+
+.j_widget_fb_activity.j_edition_story .fb_notConnected {margin-top:-62px; z-index:-1;}    
+.j_widget_fb_activity.j_edition_story .fb_notConnected .fb-like-box {display:inline-block;}
+.j_widget_fb_activity.j_edition_story .fb_notConnected .hide_like{ width:292px; height:62px; background-color:#fff; position:absolute; z-index:2; margin-left:200px;}
+
+.j_widget_fb_activity.j_edition_story .notSharing .j_widget_zinger_login {display:none;}
+.j_widget_fb_activity.j_edition_story .j_widget_zinger_login .c-account-login,
+.j_widget_fb_activity.j_edition_story .j_widget_zinger_login .c-account-info {top:30px;}
+.j_widget_fb_activity.j_edition_story .j_widget_zinger_login.j_edition_networknav .c-account-info .section ul li a,
+.j_widget_fb_activity.j_edition_story .j_widget_zinger_login.j_edition_networknav .c-account-info .footer ul li a,
+.j_widget_fb_activity.j_edition_story .j_widget_zinger_login.j_edition_networknav .c-account-info .section ul li,
+.j_widget_fb_activity.j_edition_story .j_widget_zinger_login.j_edition_networknav .c-account-info .footer ul li {
+    padding:0; margin:0; line-height:16px;
+}
+
+.j_widget_fb_sharing .c-undo {margin-left:10px;}
+.j_widget_fb_sharing.j_edition_story .zinger_fb_button {background-image:none;}
+.j_widget_fb_sharing.j_edition_story .zinger_fb_button .zinger_fb_button_text {margin-left:0;}
+
+
+.j_widget_fb_activity.j_edition_story.notSharing .c-zinger-login {display:none;}
+
+.j_widget_fb_sharing.j_edition_story{ padding:5px 0; position:relative; z-index:2; margin:8px 0; border-top:solid 1px #D8DFEA; width:710px;}
+
+.j_widget_fb_sharing.j_edition_story .j_widget_zinger_login {margin-right:15px;}
+.j_widget_fb_sharing.j_edition_story .j_widget_zinger_login ul {list-style-type:none;}
+.j_widget_fb_sharing.j_edition_story .j_widget_zinger_login .c-account-widget {width:50px; position:relative; left:20px; border-bottom:0;}
+.j_widget_fb_sharing.j_edition_story .j_widget_zinger_login .c-account-widget span {background:url(http://msnbcmedia.msn.com/i/MSNBC/Components/Interactives/_swf/Today/COVER/loginArrow.gif) scroll right 0 transparent; display:inline-block;  position:relative; top:6px; overflow:hidden; width:7px; height:4px;}
+.j_widget_fb_sharing.j_edition_story .j_widget_zinger_login .c-account-widget img {padding-right:3px;width:30px; height:30px; margin:0;}
+.j_widget_fb_sharing.j_edition_story .j_widget_zinger_login .c-account-login,
+.j_widget_fb_sharing.j_edition_story .j_widget_zinger_login .c-account-info {right:auto;}
+.j_widget_fb_sharing.j_edition_story .j_widget_zinger_login .c-account-info a {text-decoration:none; border:0;}
+
+
+/* not sharing styles */
+.notSharing .j_widget_fb_sharing.j_edition_story span.j-fb-connect,
+.notSharing .j_widget_fb_sharing.j_edition_story .j_widget_zinger_facebook,
+.notSharing .j_widget_fb_sharing.j_edition_story .j_widget_zinger_facebook div,
+.notSharing .j_widget_zinger_login,
+.notSharing .j_widget_fb_sharing.j_edition_story span {display: inline-block;}
+.notSharing .j_widget_fb_sharing.j_edition_story {border-top:solid 1px #D8DFEA; border-bottom: solid 1px #D8DFEA; position:relative; float:left; top:56px; width:200px; height:87px; display:inline-block; margin-right:20px;}
+.notSharing .j_widget_fb_sharing.j_edition_story .c-fb-icon { margin-right:5px; float:left; position:absolute; top:-5px; display:inline-block;background:url(http://cdn.lib.newsvine.com/jenga/widget/zinger/images/fb.png) no-repeat; background-position: 0 -138px; height:25px; width:26px;}
+.notSharing .j_widget_fb_sharing.j_edition_story span {font-size:14px; line-height:21px;}
+.notSharing .j_widget_fb_sharing.j_edition_story span a {text-indent:0; display:block; text-decoration:none; font-size:12px; border:0;}
+.notSharing .j_widget_fb_sharing.j_edition_story .zinger_fb_button_medium .zinger_fb_button_text{line-height:14px;}
+.notSharing .j_widget_fb_sharing.j_edition_story .zinger_fb_button_medium {margin-right:5px;}
+
+
+.j_widget_fb_activity .j_widget_fb_sharing.j_edition_story .j_widget_zinger_login .c-account-widget {*margin-left:-30px !important;}
+.j_widget_fb_activity.notSharing .j_widget_fb_sharing.j_edition_story .j_widget_zinger_login {*display:none !important;}
+.j_widget_fb_activity.notSharing .j_widget_fb_sharing.j_edition_story .c-fb-icon {*left:0 !important;}
+.j_widget_fb_activity .j_widget_fb_sharing.j_edition_story .red {*text-indent:0 !important; *margin-left:30px !important;}
+.j_widget_fb_activity.notSharing .j_widget_fb_sharing.j_edition_story .c-what {*position:relative !important; *top:-10px !important; *left:5px !important;}
+.j_widget_fb_activity.notSharing.j_edition_story .fb_notConnected .hide_like {*left:130px !important; *display:block !important;}
+.j_widget_fb_activity.j_edition_story .fb_notConnected .hide_like {*display:none !important;}
+.j_widget_fb_activity.notSharing .j_widget_fb_sharing.j_edition_story {*top:5px !important;}
+
+
+
+
+/*****************************************************************************
+FB Activity widget -- video edition
+*****************************************************************************/
+
+.j_widget_fb_sharing.j_edition_video .j_widget_zinger_facebook,
+.j_widget_fb_sharing.j_edition_video .j_widget_zinger_facebook div,
+.j_widget_fb_sharing.j_edition_video .j_widget_zinger_login {
+	display: inline-block;
+}
+
+.j_widget_fb_activity.j_edition_video .sharing_bar {
+	display: inline;
+	float:left;
+}
+
+.j_widget_fb_activity.j_edition_video .j_widget_fb_sharing .c-share-prompt,
+.j_widget_fb_activity.j_edition_video .j_widget_fb_sharing .c-account {
+	display:inline;
+}
+
+.j_widget_fb_activity.j_edition_video .j_widget_fb_sharing .c-share-prompt.c-hide,
+.j_widget_fb_activity.j_edition_video .j_widget_fb_sharing .c-account.c-hide {
+	display:none;
+}
+
+.j_widget_fb_activity.j_edition_video .fb_notConnected .recommend_button {
+	float:right;
+}
+
+.j_widget_fb_activity.j_edition_video .fb_connected .fb-activity {
+	display:none; /* the activity widget is enabled but only show onclick */
+	float: right;
+	clear: both;
+	width: 300px;
+}
+
+.j_widget_fb_activity.j_edition_video .fb_connected h2 {
+	float: right;
+	font-size: 16px;
+	font-weight: normal;
+	margin:0;
+}
+
+.j_widget_fb_sharing.j_edition_video .j_widget_zinger_login .c-account-widget {width:40px;}
+.j_widget_fb_sharing.j_edition_video .j_widget_zinger_login .c-account-widget img {width:30px; height:30px; border-bottom:0; margin:0;}
+.j_widget_fb_sharing.j_edition_video .j_widget_zinger_login .c-account-login,
+.j_widget_fb_sharing.j_edition_video .j_widget_zinger_login .c-account-info {right:auto;}
+.j_widget_fb_sharing.j_edition_video .j_widget_zinger_login .c-account-info a {text-decoration:none; border:0;}
+
+
+
+/*****************************************************************************
+FB Activity widget -- cover edition
+*****************************************************************************/
+
+.j_widget_fb_activity.j_edition_cover {margin:15px 0;}
+.j_widget_fb_activity.j_edition_cover .c-undo {display:none;}
+.j_widget_fb_activity.j_edition_cover .c-title {display: none;}
+.j_widget_fb_activity.j_edition_cover.notSharing .c-zinger-login {display:none;}
+.j_widget_fb_activity.j_edition_cover .c-zinger-login {display:block;}
+
+.j_widget_fb_activity.j_edition_cover .c-stopall {display:block; margin-top:5px;}
+
+
+/** sharing styles ***/
+.j_widget_fb_sharing.j_edition_cover{ padding:5px 0; position:relative; z-index:2; margin:8px 0; border-top:solid 1px #D8DFEA;}
+.j_widget_fb_sharing.j_edition_cover .j_widget_zinger_login .c-account-widget,
+.j_widget_fb_sharing.j_edition_cover .j_widget_zinger_login .c-account-widget img {width:30px; height:30px; border-bottom:0; margin:0;}
+.j_widget_fb_sharing.j_edition_cover .j_widget_zinger_login .c-account-login,
+.j_widget_fb_sharing.j_edition_cover .j_widget_zinger_login .c-account-info {right:auto;}
+.j_widget_fb_sharing.j_edition_cover .j_widget_zinger_login .c-account-info a {text-decoration:none; border:0;}
+
+/* not sharing styles */
+.j_widget_fb_sharing.j_edition_cover span.j-fb-connect,
+.j_widget_fb_sharing.j_edition_cover .j_widget_zinger_facebook,
+.j_widget_fb_sharing.j_edition_cover .j_widget_zinger_facebook div,
+.j_widget_fb_sharing .j_widget_zinger_login,
+.j_widget_fb_sharing.j_edition_cover span {display: inline-block;}
+.j_widget_fb_sharing.j_edition_cover span.c-hide {display:none;}
+.j_widget_fb_sharing.j_edition_cover {border-top:solid 1px #D8DFEA; position:relative; float:left; width:200px; display:inline-block; margin-right:20px;}
+
+.notSharing .j_widget_fb_sharing.j_edition_cover .c-fb-icon { margin-right:5px; float:left; position:absolute; top:-5px; display:inline-block;background:url(http://cdn.lib.newsvine.com/jenga/widget/zinger/images/fb.png) no-repeat; background-position: 0 -138px; height:25px; width:26px;}
+.notSharing .j_widget_fb_sharing.j_edition_cover span {font-size:14px; line-height:21px;}
+.notSharing .j_widget_fb_sharing.j_edition_cover span a {text-indent:0; display:block; text-decoration:none; font-size:12px; border:0;}
+.notSharing .j_widget_fb_sharing.j_edition_cover .zinger_fb_button_medium .zinger_fb_button_text{line-height:14px;}
+
+

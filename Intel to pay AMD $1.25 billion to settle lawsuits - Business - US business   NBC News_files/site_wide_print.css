@@ -1,0 +1,167 @@
+﻿/*_______layout rules_______*/
+html body div,
+.main-grid,
+.content .drawer,
+.content .ad,
+.content div .ad-label,
+.content .ads,
+.content .ad-break,
+.content .slice,
+body .content #storyheader .summary,	
+.content #storyheader .toc *,
+.content #storyheader .ads *,
+.text #text-tools,
+#wetbarcontainer,
+#article .content .recipe .ad,
+#article .content .recipe .more-recipes {display: none;}
+
+body #article,
+body div div,
+#byline span,
+.img img,
+#mainart .credit,
+#source,
+body .content #fullstory,
+body .content #storyheader .lead,
+#sitefooter ul#sitemap .i1,
+#article .content .text,
+#article .content .recipe  
+{
+	display: block;
+}
+
+html, 
+body,
+.txt {
+	margin: 0;
+	padding: 0;
+}
+
+html body .content #storyheader,
+html body .content #storyheader .lead {
+	height: auto !important;
+	min-height: 0;
+}
+
+html body .content #storyheader .lead #lead {
+	width: auto !important;
+	min-width: 0;
+}
+
+body #article {
+	margin: 2em 3em 5em 2em;
+}
+	
+/*_______presentation rules_______*/
+html, 
+body {
+	background-color: rgb(255,255,255);
+}
+
+html, 
+body,
+a {
+	color: rgb(0,0,0);
+}
+
+#mainart .credit {
+	color: rgb(170,170,170);
+}
+
+
+#storyheader .lead {
+	border-right: 0;
+}
+
+.img {
+	border: 1px solid rgb(170,170,170);
+	padding: 1px;
+}
+
+#mainart {
+	float: right;
+	max-width: 60%;
+	margin-left: 1.2em;
+	margin-bottom: 1.67em;
+}
+
+#mainart .credit,
+#mainart .caption {
+	width: 200%;
+}
+
+#byline .thumb-s {
+	width: 64px;
+	float: left;
+	margin-right: 5px;
+}
+
+#source {
+	padding-top: 0.25em;
+	clear: left;
+}
+
+/*_______typography_______*/
+html, body {
+	font-family: Georgia, serif;
+}
+
+#byline,
+#source,
+#mainart,
+#storyheader h2,
+.copyright,
+.timestamp {
+	font-family: Arial, sans-serif;
+}
+
+html, body {
+	line-height: 1.4;
+}
+
+#storyheader h1 {
+	line-height: 1;
+}
+
+
+#storyheader h1 {
+	font-size: 3em;
+}
+
+html,
+body,
+#byline .attribution {
+	font-size: 15px;
+}
+
+#mainart .caption,
+#byline,
+#source,
+.copyright {
+	font-size: 12px;
+}
+
+#mainart .credit,
+.timestamp {
+	font-size: 10px;
+}
+
+#storyheader h1 {
+	font-weight: normal;
+}
+
+#byline .attribution {
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+#mainart .credit { 
+	text-align: right;
+}
+
+.copyright {
+	font-style: italic;
+}

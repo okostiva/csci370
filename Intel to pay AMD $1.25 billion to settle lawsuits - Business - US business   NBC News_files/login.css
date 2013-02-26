@@ -1,0 +1,134 @@
+/*****************************************************************************
+Zinger Login widget
+*****************************************************************************/
+
+
+
+/*****************************************************************************
+NetworkNav Edition
+*****************************************************************************/
+
+.j_widget_zinger_login.j_edition_networknav {
+	position: relative;
+}
+.j_widget_zinger_login.j_edition_networknav ul {
+	margin: 0;
+	padding: 0;
+}
+.j_widget_zinger_login.j_edition_networknav .c-account-widget {
+	color: #ffffff;
+	cursor: pointer;
+	display: block;
+	float: right;
+	font-size: 10px;
+	height: 24px;
+	line-height: 24px;
+}
+
+.j_widget_zinger_login.j_edition_networknav .c-account-widget .c-avatar {
+	cursor: context-menu;
+}
+
+.j_widget_zinger_login.j_edition_networknav .c-account-widget img {
+	float: left;
+	height: 23px;
+	margin:1px 5px 0;
+	width: 23px;
+	/*background-color: #ff85c0;*/ /* pink */ /* why? */
+}
+
+.j_widget_zinger_login.j_edition_networknav .c-account-widget span {
+	display: inline-block;
+	line-height: normal;
+	margin-top: 7px;
+}
+
+.j_widget_zinger_login.j_edition_networknav .c-account-widget span:after {
+	content: " \25BE" ; /* this is the xhtml arrow: &#9662; down arrow */
+}
+
+.j_widget_zinger_login.j_edition_networknav .c-account-login,
+.j_widget_zinger_login.j_edition_networknav .c-account-info {
+	background-color: #fff;
+	border: 1px solid #aaa;
+	box-shadow: 0 2px 9px rgba(0,0,0,0.5);
+	padding: 15px 15px 20px;
+	position: absolute;
+	right: 0;
+	top: 24px;
+	width: 268px;
+	z-index:1000001; /* Clorox AD is using z-index:1000000 */
+}
+
+.j_widget_zinger_login.j_edition_networknav .c-account-login,
+.j_widget_zinger_login.j_edition_networknav .c-account-info {
+	color:#808080;
+	font-size:13px;
+	font-weight:normal;
+	line-height:18px;
+	text-rendering:optimizeLegibility;
+}
+
+.j_widget_zinger_login.j_edition_networknav .c-account-info .header {
+	margin: 0 0 0 70px;
+}
+
+.j_widget_zinger_login.j_edition_networknav .c-account-info .header img {
+	float: left;
+	height: 60px;
+	margin: 0 0 0 -70px;
+	width: 60px;
+}
+
+.j_widget_zinger_login.j_edition_networknav .c-account-info .header h1 {
+	font-size: 20px;
+	margin: 0;
+}
+
+.j_widget_zinger_login.j_edition_networknav .c-account-info .section {
+	margin-top: 15px;
+	padding-left: 70px;
+}
+
+.j_widget_zinger_login.j_edition_networknav .c-account-info .section:after,
+.j_widget_zinger_login.j_edition_networknav .c-account-info .footer:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.j_widget_zinger_login.j_edition_networknav .c-account-info .footer {
+	border-top: 1px dotted #ddd;
+	margin-top: 15px;
+	padding-top: 5px;
+}
+
+
+.j_widget_zinger_login.j_edition_networknav .c-account-info .section ul li,
+.j_widget_zinger_login.j_edition_networknav .c-account-info .footer ul li {
+	display: block;
+	margin-left: 0;
+}
+
+.j_widget_zinger_login.j_edition_networknav .c-account-info .footer ul li,
+.j_widget_zinger_login.j_edition_networknav .c-account-info .footer ul li a  {
+	display:inline-block;
+}
+
+.j_widget_zinger_login.j_edition_networknav .c-account-info .footer ul li.privacy {float:right;}
+
+
+.j_widget_zinger_login.j_edition_networknav .c-account-info .section ul li a,
+.j_widget_zinger_login.j_edition_networknav .c-account-info .footer ul li a {
+	display: block;
+	line-height: 24px;
+	padding: 3px 0;
+}
+
+.c-account-login h2.success {
+    color: #008b12;
+}
+
+

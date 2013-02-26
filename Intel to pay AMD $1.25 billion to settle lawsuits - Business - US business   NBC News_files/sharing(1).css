@@ -1,0 +1,19 @@
+/*****************************************************************************
+Zinger Sharing widget
+*****************************************************************************/
+
+.j_widget_zinger_sharing {
+	font-size:11px;
+	line-height:13px;
+	margin-top:8px;
+}
+
+.j_widget_zinger_sharing input { 
+	float:left; 
+	margin-right:5px;
+}
+
+.j_widget_zinger_sharing label {
+	cursor:pointer;
+}
+

@@ -1,0 +1,61 @@
+/*****************************************************************************
+Zinger
+*****************************************************************************/
+
+.j_widget_zinger {
+    font-family:Helvetica;
+    font-size:14px;
+	line-height: 20px;
+	text-align:left;
+}
+
+.j_widget_zinger a:link,
+.j_widget_zinger a:visited,
+.j_widget_zinger a:hover {
+    color:#000;
+}
+
+.j_widget_zinger > .header,
+.j_widget_zinger > .footer,
+.j_widget_zinger > .auth > div {
+    margin-bottom:10px;
+}
+
+.j_widget_zinger img {
+	-ms-interpolation-mode: bicubic;
+	/* for served images resized via css */
+}
+
+/*****************************************************************************
+Zinger Header
+*****************************************************************************/
+
+.j_widget_zinger > .header .logo {
+    margin-right: 10px;
+    float:left;
+    display:inline;
+}
+
+.j_widget_zinger > .header .title {
+    font-weight:bold;
+    font-size:16px;
+    margin-bottom:10px;
+}
+
+.j_widget_zinger > .header .message {
+    display:none;
+}
+
+
+/*****************************************************************************
+Cheating with Zinger Facebook and Zinger Twitter styles
+*****************************************************************************/
+
+.j_widget_zinger_facebook {
+    margin-bottom:10px;
+}
+
+.j_widget_zinger_twitter {
+    margin-bottom:10px;
+}
+

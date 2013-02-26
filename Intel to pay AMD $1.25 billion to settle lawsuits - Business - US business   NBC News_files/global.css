@@ -1,0 +1,148 @@
+/*****************************************************************************
+Global jenga widget styles... trying this out... skeptical
+all styles should start with .j_widget
+*****************************************************************************/
+
+.j_widget .c-status.c-error {
+	color: #660000;
+}
+
+.j_widget .c-status.c-done {
+	color: #006600;
+}
+
+.j_widget .c-note {
+	color: #999;
+	font-size: 12px;
+}
+
+.j_widget.c-hide,
+.j_widget .c-hide {
+    display:none;
+}
+
+
+/*****************************************************************************
+Jenga Modal styles
+*****************************************************************************/
+
+.j_modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 1050; /* 80001 compatible with cloudspone modal */
+  max-height: 500px;
+  overflow: auto;
+  width: 560px;
+  margin: -250px 0 0 -280px;
+  background-color: #ffffff;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  *border: 1px solid #999;
+  /* IE6-7 */
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+.j_modal_overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040; /* 9999 */
+  background-color: #000000;
+  opacity: 0.8;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+filter: alpha(opacity=80);
+}
+
+
+/*****************************************************************************
+ModalWidget styles
+*****************************************************************************/
+
+.j_modal .c-modal-header {
+  padding: 9px 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.j_modal .c-modal-header h1 {
+  margin:0;
+}
+
+.j_modal .c-modal-header .close {
+  margin-top: 2px;
+}
+.j_modal .c-modal-body {
+  clear:both;
+  padding: 15px;
+}
+.j_modal .c-modal-body .j_modal .c-modal-form {
+  margin-bottom: 0;
+}
+.j_modal .c-modal-footer {
+  clear:both;
+  padding: 14px 15px 15px;
+  margin-bottom: 0;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  -webkit-border-radius: 0 0 6px 6px;
+  -moz-border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;
+  -webkit-box-shadow: inset 0 1px 0 #ffffff;
+  -moz-box-shadow: inset 0 1px 0 #ffffff;
+  box-shadow: inset 0 1px 0 #ffffff;
+  *zoom: 1;
+}
+.j_modal .c-modal-footer:before, .j_modal .c-modal-footer:after {
+  display: table;
+  content: "";
+}
+.j_modal .c-modal-footer:after {
+  clear: both;
+}
+.j_modal .c-modal-footer .btn {
+  float: right;
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+
+.j_modal .c-modal-close {
+  text-decoration: none;
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 18px;
+  color: #000000;
+  text-shadow: 0 1px 0 #ffffff;
+ -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+ filter: alpha(opacity=20);
+  opacity: 0.2;
+}
+
+.j_modal .c-modal-close:hover { 
+  color: #000000;
+  text-decoration: none;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+filter: alpha(opacity=40);
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  cursor: pointer;
+}
+
+.j_modal .c-modal-footer button,
+.j_modal .c-modal-footer a {
+  float: right;
+  margin-left: 18px;
+}
+
+

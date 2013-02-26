@@ -1,0 +1,229 @@
+/* CSS by Jonathan B. Morgan, 2007 */
+
+div#release  #date{
+	font-size: 90%;
+	margin: 0px;
+	display: block;
+	padding: 0px;
+}
+
+div#release .type {
+	color: #990000;
+	font-weight: bold;
+}
+
+div#release h1 {
+	position: relative;
+	font: bold 135% Verdana, Arial, Helvetica, sans-serif;
+	margin: 0em auto;
+	color: #194579;
+	padding: 1em 0em 0.5em;
+	}
+	
+div#release h2 {
+	padding: 0px;
+	margin: 0px;
+	font: bold 120% Arial, Helvetica, sans-serif;
+	font-style: normal;
+	}
+
+div#release h3 {
+	padding: 0px;
+	margin: 0px;
+	font: bold 110% Arial, Helvetica, sans-serif;
+}
+	
+div#release h4 {
+	padding: 0px;
+	margin: 0px 10px 0px 0px;
+	font: bold 100% Arial, Helvetica, sans-serif;
+	display: block;
+	}
+			
+div#release p {
+	padding: 0px;
+	line-height: 120%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+div#release a {
+	color: #006699;
+	text-decoration: none;
+}
+
+div#release a:hover {
+	text-decoration: underline;
+}
+
+div#release .center {
+	padding: 0px;
+	margin: 0px;
+	font: bold 110% Arial, Helvetica, sans-serif;
+	text-align: center;
+	display: block;
+}
+
+div#release table {
+	width: 500px;
+	margin:0 auto;
+	text-align: left;
+	padding: 0px;
+	border-width: 1px;
+}
+div#release table caption {
+	font-size: 110%;
+	font-weight: bold;
+}
+div#release table td {
+	padding: 5px;
+	vertical-align: top;
+}
+
+div#release table th {
+	text-align: right;
+	vertical-align: top;
+	padding: 5px;
+}
+
+div#release ul {
+	padding: 0px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	list-style: url(/resources/images/bullet_dash.gif) none outside;
+	margin-left: 3em;
+	vertical-align: middle;
+}
+div#release ul li {
+	margin-left: 1.5em;
+	margin-top: .25em;
+	margin-bottom: .25em;
+}
+
+div#release ul ul {
+	list-style: url(/resources/images/bullet_dot.gif) none outside;
+}
+
+div#release ul ul ul {
+	list-style: url(/resources/images/bullet_dot2.gif) none outside;
+}
+
+div#release dl {
+	padding: 0px;
+	margin: 0px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	list-style: none;
+}
+
+div#release dt {
+	padding: 0px;
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: .5em;
+}
+div#release dd {
+	padding: 0px;
+	font-weight: normal;
+	margin-bottom: .25em;
+	margin-left: 3em;
+}
+
+div#release blockquote {
+	margin-left: 3em;
+	margin-right: 3em;
+}
+
+
+/*Right column stuff*/
+
+div#right a {
+	color: #006699;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+div#right a:hover {
+	text-decoration: underline;
+}
+
+div#right .caseTitle {
+	font-style: normal;
+	font-weight: bold;
+}
+
+div#right .lang {
+	color: #CC0000;
+}
+
+
+div#right h1 {
+	width: 187px;
+	margin: 10px 0px 0px;
+	padding: 3px 0px 3px 5px;
+	font: bold 105%/120% Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	background: url(/resources/images/side_menu_bkgd.jpg) no-repeat left top;
+	border-top: 1px solid #3399cc;
+	border-right: 1px solid #143a66;
+	border-bottom: 1px solid #143a66;
+	border-left: 1px solid #3399cc;
+}
+
+div#related {
+	width: 182px;
+	position: relative;
+	margin: 0px 0px 10px;
+	padding: 5px 5px 15px;
+	vertical-align: top;
+	border-top: 0px dashed #c5aa73;
+	border-right: 1px solid #c5aa73;
+	border-bottom: 1px solid #c5aa73;
+	border-left: 1px solid #c5aa73;
+	background: #faf8f2;
+}
+ 
+div#related h2 {
+	margin: 0px;
+	padding: 5px 0px 0px;
+	font: bold 100%/120% Arial, Helvetica, sans-serif;
+}
+
+div#related p {
+	margin: 0px 0px 10px;
+	padding: 0px;
+}
+div#related a {
+	color: #006699;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+div#related a:hover {
+	text-decoration: underline;
+}
+
+div#related ul {
+	padding: 0px;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	list-style: url(/resources/images/bullet_dot_blue.gif) none outside;
+	margin-left: 10px;
+}
+div#related ul li {
+	margin-left: 10px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+div#relatedVideo {
+	border: 1px solid #806222;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	width: 175px;
+}

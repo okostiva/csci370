@@ -1,0 +1,73 @@
+@CHARSET "UTF-8";
+
+html,body {
+	border:none; margin:0; padding:0;     
+    font-family: Arial, Helvetica;
+    background: transparent;
+}
+
+a {text-decoration: none}
+
+.zone {
+    width: 298px;
+    height: 248px;
+    overflow: hidden;
+    border: solid 1px #cccccc;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    overflow:hidden;
+    list-style-type:none;
+    margin: 0; padding: 0;
+}
+
+ul li {
+	padding: 0px;
+	margin: 0px;
+	width: 299px;
+	float: left;
+	overflow: hidden;
+}
+
+table.ad {
+	width: 299px;
+	height: 82px;
+	overflow: hidden;
+	border: 0px; 
+	padding: 0; 
+	margin: 0px;
+}
+
+table.ad tr td {padding: 0; margin: 0; }
+
+table.ad tr td.image {
+	width: 100px;
+	height: 75px;
+	overflow: hidden;
+	padding: 0 1px;
+}
+
+table.ad tr td.text {
+	padding: 0 3px;
+}
+	
+a.description {
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.advlabel {
+	font-size: 10px;
+	color: #AAAAAA;
+    position: absolute;
+    top: 233px;
+    width: 295px;
+    text-align:right;
+}
+
+.learnmore {
+	font-weight: bold;
+}
+

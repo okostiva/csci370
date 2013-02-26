@@ -1,0 +1,1806 @@
+/* CSS by Jonathan B. Morgan, 2007 */
+
+
+
+body {
+	margin:0px;
+	padding:0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 75%;
+	line-height: 120%;
+	min-width:780px;
+    background-image:url(/resources/images/FTC-background-v3.jpg);
+	background-position:top;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-color:#15274d;
+  	behavior:  url("/resources/styles/csshover.htc"); /* WinIE behavior call */
+}
+	
+
+div#wrap {
+	position: relative;
+	background: #FFFFFF url(/resources/images/background.gif) repeat-y 50% 0;
+	margin:0 auto;
+	width:780px;
+	border-top: 0px solid #BBBBBB;
+	border-right: 0px solid #BBBBBB;
+	border-bottom: 0px solid #BBBBBB;
+	border-left: 0px solid #BBBBBB;
+	padding:0;
+}
+
+
+
+/* Begin default styles for FTC.gov */
+
+
+
+/* These use the main div tag to style everything in the main content area of the pages and not affect the other menus which happens if you just have them for the default for everything (without any div tag specified) - All templates have a main div tag inside of the center column except for os_case.dwt,  opa_Rmenu_release.dwt, and 1col_pub.dwt. */
+
+
+
+
+
+div#main h1 {
+
+	position: relative;
+
+	font: bold 135%/normal Verdana, Arial, Helvetica, sans-serif;
+
+	margin: 0.5em auto 0.5em;
+
+	color: #194579;
+
+	text-align: center;
+
+	font-style: normal;
+
+	border-bottom: 2px solid #194579;
+
+	padding-bottom: 2px;
+
+	overflow: hidden;
+
+}
+
+
+
+div#main h1 a {
+
+	color: #006699;
+
+	text-decoration: none;
+
+}
+
+
+
+div#main h1 a:hover {
+
+	text-decoration: underline;
+
+}
+
+
+
+div#main h1 .subText{
+
+	font-size: 70%;
+
+	margin: 0px;
+
+	display: block;
+
+	padding: 0px;
+
+	font-weight: normal;
+
+	padding-bottom: .25em;
+
+}
+
+	
+
+div#main h2 {
+
+	position: relative;
+
+	font: bold 120% Verdana, Arial, Helvetica, sans-serif;
+
+	margin: 0.75em auto 0.5em;
+
+	color: #000000;
+
+	text-align: center;
+
+	font-style: normal;
+
+}
+
+
+
+div#main h2 a {
+
+	color: #006699;
+
+	text-decoration: none;
+
+}
+
+
+
+div#main h2 a:hover {
+
+	text-decoration: underline;
+
+}
+
+
+
+
+
+div#main h2 .subText{ /* Used for text that needs to go directly under a header but not be as big as the header. The text is put inside of the header tags and then this class is applied to the text by using span tags.*/
+
+	font-size: 70%;
+
+	margin: 0px;
+
+	display: block;
+
+	padding: 0px;
+
+	font-weight: normal;
+
+}
+
+
+
+div#main .horzSeparate { /*Used on the about pages and anywhere else you want to separate an item with horizontal lines.*/
+
+	border-bottom: 1px solid #CCCCCC;
+
+	padding: 0.15em 0em;
+
+	border-top: 1px solid #CCCCCC;
+
+	display: block;
+
+}
+
+
+
+
+
+div#main h3 {
+
+	position: relative;
+
+	font: bold 110% Verdana, Arial, Helvetica, sans-serif;
+
+	margin: 1em auto 0.25em;
+
+	color: #000000;
+
+	text-align: center;
+
+	font-style: normal;
+
+}
+
+
+
+div#main h3 a {
+
+	color: #006699;
+
+	text-decoration: none;
+
+}
+
+
+
+div#main h3 a:hover {
+
+	text-decoration: underline;
+
+}
+
+
+
+div#main h3 .subText{
+
+	font-size: 70%;
+
+	margin: 0px;
+
+	display: block;
+
+	padding: 0px;
+
+	font-weight: normal;
+
+}
+
+
+
+div#main h4 {
+
+	position: relative;
+
+	font: bold 100% Verdana, Arial, Helvetica, sans-serif;
+
+	margin: 0em auto .5em;
+
+	color: #000000;
+
+	text-align: center;
+
+	font-style: normal;
+
+}
+
+
+
+div#main h4 a {
+
+	color: #006699;
+
+	text-decoration: none;
+
+}
+
+
+
+div#main h4 a:hover {
+
+	text-decoration: underline;
+
+}
+
+
+
+div#jumpList {/* This div is used to separate the year or alphabetical lists that jump to different areas on the same page. By putting this div tag around the list it separates it from the rest of the page with some space and dashed lines.*/
+
+	padding: .5em 0px;
+
+	margin: 1em auto;
+
+	line-height: 120%;
+
+	border-top: 1px dashed #999999;
+
+	border-bottom: 1px dashed #999999;
+
+	text-align: center;
+
+	font-size: 110%;
+
+	font-weight: bold;
+
+}
+
+
+
+div#main p {
+
+	padding: 0px;
+
+	line-height: 120%;
+
+	margin-top: 1em;
+
+	margin-bottom: 1em;
+
+	margin-left: 0px;
+
+	margin-right: 0px;
+
+}
+
+
+
+div#main a {
+
+	color: #006699;
+
+	text-decoration: none;
+
+}
+
+
+
+div#main a:hover {
+
+	text-decoration: underline;
+
+}
+
+
+
+
+
+div#main ul {
+
+	line-height: 120%;
+
+	padding: 0px;
+
+	margin-top: 1em;
+
+	margin-bottom: 1em;
+
+	list-style: url(/resources/images/bullet_dash.gif) none outside;
+
+	margin-left: 2em;
+
+	margin-right: 1em;
+
+}
+
+
+
+div#main ul li {
+
+	line-height: 120%;
+
+	margin-left: 1.5em;
+
+	margin-top: 0.5em;
+
+	margin-bottom: .25em;
+
+	padding-bottom: .25em; /*This is so when there is an item with the "title" class the g's and y's don't get cut off*/
+
+}
+
+
+
+div#main ul ul {
+
+	line-height: 120%;
+
+	list-style: url(/resources/images/bullet_dot.gif) none outside;
+
+	margin-top: .5em;
+
+	margin-bottom: .5em;
+
+}
+
+
+
+div#main ul ul ul {
+
+	line-height: 120%;
+
+	list-style: url(/resources/images/bullet_dot2.gif) none outside;
+
+}
+
+
+
+
+
+div#main dl {
+
+	padding: 0px;
+
+	margin: 0px;
+
+	margin-top: 1em;
+
+	margin-bottom: 1em;
+
+	list-style: none;
+
+}
+
+
+
+div#main dt {
+
+	padding: 0px;
+
+	font-weight: bold;
+
+	margin-top: 1em;
+
+	margin-bottom: .5em;
+
+}
+
+div#main dd {
+
+	padding: 0px;
+
+	font-weight: normal;
+
+	margin-bottom: .25em;
+
+	margin-left: 3em;
+
+}
+
+
+
+div#main input {
+
+	margin: 10px 0px 0px;
+
+}
+
+
+
+div#main form {
+
+	margin: 0px 0px 10px;
+
+}
+
+
+
+div#main blockquote {
+
+	margin-left: 3em;
+
+	margin-right: 3em;
+
+}
+
+
+
+div#main .title { /*Used to bold and enlarge the title of something in a list or paragraph. If the item is not an actual title of something then the regular <strong> tag may be used to make it bold.*/
+
+	font-size: 110%;
+
+	font-weight: bold;
+
+}
+
+
+
+div#main .titleSub { 
+
+	font-size: 90%;
+
+}
+
+
+
+div#main .noSpace{
+
+	margin-top: 0px;
+
+	margin-bottom: 0px;
+
+	padding-top: 0px;
+
+	padding-bottom: 0px;
+
+}
+
+
+
+div#main .sectionLeft { /*Used to pull header items (usually h2 or H3 which can be used to denote sections in the page) to the left.*/
+
+	text-align: left;
+
+	margin-left: 0px;
+
+}
+
+
+
+div#main .sectionRight { /*Used to pull header items (usually h2 or H3 which can be used to denote sections in the page) to the right.*/
+
+	text-align: right;
+
+	margin-right: 0px;
+
+}
+
+
+
+div#main .sectionColor { /*Used to change the color of the header items on a page to a different color than the standard black. The color is currenlty maroon, but the title (sectionColor) is generic in case we want to change the color later the tag won’t be confusing to others.*/
+
+	color: #990000;
+
+}
+
+
+
+div#main .alertColor { /*Used to draw attention to an item on the page. The color is currenlty bright red, but the title (alertColor) is generic in case we want to change the color later the tag won’t be confusing to others.*/
+
+	color: #FF0000;
+
+}
+
+
+div#main .titleColorblue { /*Used to match color of ftc blue.*/
+
+	color: #6320b6;
+
+}
+
+
+#picCaptionLeft {
+
+	float:left;
+
+	background-color:#FFFFFF;
+
+	text-align: center;
+
+	margin: 0em 1em 0.5em 0em;
+
+	padding: 0px;
+
+	line-height: 100%;
+
+	font-size: 90%;
+
+}
+
+
+
+#thumbnails #picCaptionLeft {
+
+	width: 126px;
+
+	float:left;
+
+	background-color:#FFFFFF;
+
+	text-align: center;
+
+	padding: 0px;
+
+	line-height: 120%;
+
+	font-size: 90%;
+
+	margin-top: 5px;
+
+	margin-right: 10px;
+
+	margin-bottom: 5px;
+
+	margin-left: 0px;
+
+}
+
+
+
+#thumbnails #picCaptionLeft img {
+
+	padding: 1px;
+
+	border: 1px solid #000000;
+
+	margin-top: 3px;
+
+	margin-right: 0px;
+
+	margin-bottom: 3px;
+
+	margin-left: 0px;
+
+}
+
+
+
+#thumbnails #picCaptionLeft a {
+
+	font-weight: bold;
+
+	font-size: 110%;
+
+}
+
+
+
+#picCaptionRight {
+
+	float:right;
+
+	background-color:#FFFFFF;
+
+	text-align: center;
+
+	margin: 0em 0em 0.5em 1em;
+
+	padding: 0px;
+
+	line-height: 100%;
+
+	font-size: 90%;
+
+}
+
+
+
+#picCaptionCenter {
+
+	background-color:#FFFFFF;
+
+	text-align: center;
+
+	margin: 0em 1em 0.5em;
+
+	padding: 0px;
+
+	line-height: 120%;
+
+	font-size: 90%;
+
+}
+
+
+
+div#main img {
+
+	padding: 0px;
+
+	margin: 0px 0px .5em;
+
+	border: 0px solid #000000;
+
+}
+
+
+
+div#main .border {
+
+	padding: 1px;
+
+	margin: 0px 0px .5em;
+
+	border: 1px solid #000000;
+
+}
+
+
+
+
+
+/*for when a basic page uses the same looks as the "For Release: Date" at the News Release pages*/
+
+div#main  #date{
+
+	font-size: 90%;
+
+	margin: 0px;
+
+	display: block;
+
+	padding: 0px;
+
+}
+
+
+
+div#main .type {
+
+	color: #990000;
+
+	font-weight: bold;
+
+}
+
+
+
+.footnote {
+
+	font-size: 95%;
+
+}
+
+
+
+.footNumber {
+
+	font-size: 85%;
+
+	position: relative;
+
+	bottom: 4px;
+
+	padding-right: 10px;
+
+}
+
+
+
+div#pullQuote {
+
+	padding: 8px;
+
+	border: 0px solid #000000;
+
+	font-family: Georgia, "Times New Roman", Times, serif;
+
+}
+
+
+
+div#pullQuote .pullSource {
+
+	font-weight: bold;
+
+	text-align: left;
+
+	display: block;
+
+	float: right;
+
+	padding-right: 10px;
+
+	padding-top: 5px;
+
+}
+
+
+
+
+
+
+
+/*Begin highlight, ofInterest, and nsearch styles (area above Hot Topics on right)*/
+
+
+
+div#highlight {
+
+	width: 172px; 
+
+	text-align: center;
+
+	position: relative;
+
+	padding: 3px 0px;
+
+	margin-top: 0px;
+
+	margin-bottom: 10px;
+
+	background: #fffbf2;
+
+	border: 1px dashed #bfa160;
+
+} 
+
+
+
+div#highlight:hover {
+
+	background: #ffffff;
+
+	border: 1px dashed #CC0000;
+
+} 
+
+
+
+div#highlight a {
+
+	color: #CC0000;
+
+	text-decoration: none;
+
+	font-weight: bold;
+
+	display: block;
+
+}
+
+
+
+div#highlight a:hover {
+
+	text-decoration: none;
+
+	color: #CC0000;
+
+}
+
+
+
+
+
+div#ofInterest {
+
+	margin:0px;
+
+	padding: 0px;
+
+	position: relative;
+
+	width: 172px; 
+
+	margin-top: 0px;
+
+	margin-bottom: 10px;
+
+} 
+
+div#ofInterest a {
+
+	color: #194579;
+
+	text-decoration: underline;
+
+	padding-bottom: 3px;
+
+	border-bottom: 0px solid #d5d5d5;
+
+	display: block;
+
+	margin-bottom: 3px;
+
+
+
+}
+
+
+
+div#ofInterest a:hover {
+
+	text-decoration: none;
+
+}
+
+
+
+div#ofInterest img {
+
+	border-style: none;
+
+	padding-right: 5px;
+
+	background: center;
+
+} 
+
+
+
+
+
+div#nsearch {
+
+	width: 172px; 
+
+	text-align: center;
+
+	position: relative;
+
+	padding: 5px 0;
+
+	margin-top: 0px;
+
+	margin-bottom: 10px;
+
+	background: #f2f8ff;
+
+	border: 1px solid #194579;
+
+} 
+
+
+
+div#nsearch a {
+
+	color: #194579;
+
+	text-decoration: underline;
+
+	padding-bottom: 3px;
+
+	display: block;
+
+}
+
+
+
+div#nsearch a:hover {
+
+	text-decoration: none;
+
+}
+
+
+
+div#nsearch form {
+
+	font-weight: bold;
+
+	margin: 0px 0px 5px;
+
+	padding: 0px 0px 5px;
+
+	color: #194579;
+
+	border-bottom: 1px dashed #6699cc;
+
+} 
+
+div#nsearch form input {
+
+	font-weight: normal;
+
+	margin: 0px;
+
+	padding: 0px;
+
+} 
+
+div#nsearch form input:focus {
+
+	background: #ffffcc;
+
+}
+
+
+
+
+
+	
+
+/*Begin Hot Topics styles*/
+
+
+
+div#hotTopics {  
+
+	margin-top: 0px;
+
+	margin-bottom: 10px;
+
+	padding: 0px 0px 8px;
+
+	position: relative;
+
+	top: 0px;
+
+	left: 0px;
+
+	width:172px;
+
+	border: 1px solid #CCCCCC;
+
+	background:#F8F8F8;
+
+}
+
+
+
+div#hotTopics h2 {
+
+	padding: 3px 0px 3px 5px;
+
+	position: relative;
+
+	margin: 0px 0px 8px;
+
+	font: bold  115%/100% Verdana, Arial, Helvetica, sans-serif;
+
+	color: #CC0000;
+
+	background: #d5d5d5;
+
+	width: 167px;
+
+	}
+
+	
+
+div#hotTopics h6 {
+
+	padding: 3px 0px 3px 5px;
+
+	position: relative;
+
+	margin: 0px 0px 8px;
+
+	font: bold  115%/100% Verdana, Arial, Helvetica, sans-serif;
+
+	color: #CC0000;
+
+	background: #d5d5d5;
+
+	width: 285px;
+
+	}
+
+	
+
+div#hotTopics ul {
+
+	margin: 0px;
+
+	padding: 0px;
+
+	list-style: none;
+
+}
+
+div#hotTopics ul li {
+
+	margin: 0px;
+
+	padding: 0px;
+
+	list-style: none;
+
+}		
+
+div#hotTopics ul li img {
+
+	margin: 0px;
+
+	padding: 2px 6px;
+
+	vertical-align: middle;
+
+}
+
+	
+
+
+
+/*Start Optional Side Menu*/
+
+
+
+div#sideMenu {
+
+	margin:0px;
+
+	padding: 0px;
+
+	float:left;
+
+	position: relative;
+
+	top: 0px;
+
+	left: 0px;
+
+	background:#ffffff;
+
+	width: 174px;
+
+	margin-bottom: 10px;
+
+}
+
+	
+
+div#sideMenu h2 {
+
+	display: block;
+
+	padding: 0px 0px 0px 5px;
+
+	position: relative;
+
+	margin: 0px;
+
+	font: bold 13px/22px Verdana, Arial, Helvetica, sans-serif;
+
+	color: #ffffff;
+
+	background-image: url(/resources/images/side_menu_bkgd.jpg);
+
+	background-repeat: no-repeat;
+
+	background-position: left top;
+
+	height: 22px;
+
+	width:167px; /* This is 7px less than the desired 174 width because of 5px padding and the 1px right & left borders. */
+
+	border-top: 1px solid #3399cc;
+
+	border-right: 1px solid #143a66;
+
+	border-bottom: 1px solid #143a66;
+
+	border-left: 1px solid #3399cc;
+
+	}
+
+	  		  
+
+div#sideMenu ul {
+
+	padding: 2px 0px;
+
+	margin: 0px;
+
+	width:174px;
+
+	background: #f2efe4;
+
+	border-top: 0px solid #194579;
+
+	border-right: 0px solid #194579;
+
+	border-bottom: 3px solid #194579;
+
+	border-left: 0px solid #194579;
+
+	font-size: 12px;
+
+	list-style: none;
+
+	
+
+}
+
+
+
+div#sideMenu #extend {
+
+	height: 150px;
+
+}
+
+
+
+div#sideMenu ul.extend {
+
+	margin:0px 0px 150px; /*bottom margin is to allow room for pop-up menus on pages with not much content*/
+
+}
+
+
+
+div#sideMenu li {
+
+	margin: 0px;
+
+	padding: 0px;
+
+	position: relative; 
+
+	list-style: none; 
+
+	border: 1px solid #ffffff;
+
+}
+
+
+
+div#sideMenu ul li.submenu {
+
+	background:  url("/resources/images/submenu.gif") 98% 50% no-repeat;
+
+	list-style: none;
+
+}
+
+div#sideMenu ul li.submenu:hover {
+
+	background: #ffffff;
+
+	border-right: 0px solid #ffffff;
+
+	list-style: none;
+
+}
+
+
+
+div#sideMenu ul li:hover {
+
+	background: #FFFFFF;
+
+	padding: 0px;
+
+	border: 1px solid #993d0f;
+
+	list-style: none;
+
+}
+
+
+
+div#sideMenu ul li a {
+
+	color:#0f5099;
+
+	font-weight: normal;
+
+	text-decoration: none;
+
+	display: block;
+
+	padding: 2px 10px 2px 8px;
+
+	width: 152px;
+
+	min-height: 16px;
+
+}
+
+
+
+
+
+
+
+div#sideMenu ul ul {
+
+	position: absolute;
+
+	top: -2px;
+
+	left: -2000px; /* using left instead of display to hide menus because display: none isn't read by screen readers */
+
+	width: auto;
+
+	background: #ffffff;
+
+	border: 1px solid #993d0f;
+
+	list-style: none;
+
+}
+
+
+
+
+
+div#sideMenu ul ul li {
+
+	border: 1px solid #f2efe4;
+
+	list-style: none;
+
+	min-height: 16px;
+
+}
+
+
+
+div#sideMenu ul ul li a {
+
+ 	color:#cc6633;
+
+	font-weight: normal;
+
+	text-decoration: none;
+
+	display: block;
+
+	padding: 2px 5px 2px 5px;
+
+	width: 210px;
+
+	list-style: none;
+
+}
+
+
+
+div#sideMenu ul ul li:hover {
+
+	border: 1px solid #faf8f2;
+
+	background: #faf8f2;
+
+	list-style: none;
+
+}
+
+
+
+div#sideMenu ul ul li a:hover {
+
+ 	color:#993d0f;
+
+	list-style: none;
+
+}
+
+
+
+div#sideMenu ul.level1 li.submenu:hover ul.level2 {
+
+	left: 173px;
+
+	list-style: none;
+
+}
+
+
+
+/* -------------------- start testing ----------------------  */
+
+
+
+div#sideMenu ul ul ul{
+
+	position: absolute;
+
+	top: -2px;
+
+	left: -3000px; /* using left instead of display to hide menus because display: none isn't read by screen readers */
+
+	width: auto;
+
+	background: #ffffff;
+
+	border: 1px solid #993d0f;
+
+	list-style: none;
+
+}
+
+
+
+div#sideMenu ul ul ul li {
+
+	border: 1px solid #f2efe4;
+
+	list-style: none;
+
+	min-height: 16px;
+
+}
+
+
+
+div#sideMenu ul ul ul li a {
+
+ 	color:#cc6633;
+
+	font-weight: normal;
+
+	text-decoration: none;
+
+	display: block;
+
+	padding: 2px 5px 2px 5px;
+
+	width: 210px;
+
+	list-style: none;
+
+}
+
+
+
+div#sideMenu ul ul ul li:hover {
+
+	border: 1px solid #faf8f2;
+
+	background: #faf8f2;
+
+	list-style: none;
+
+}
+
+
+
+div#sideMenu ul ul ul li a:hover {
+
+ 	color:#993d0f;
+
+	list-style: none;
+
+}
+
+
+
+div#sideMenu ul.level1 li.submenu:hover ul.level2 li.submenu:hover ul.level3{
+
+	left: 173px;
+
+	list-style: none;
+
+}
+
+/* -------------------- end testing ----------------------  */
+
+
+
+
+
+
+
+/*Begin Footer styles*/
+
+
+
+div#footer-wrapper {
+	clear: both;
+	float: left;
+	position: relative;
+	width: 100%;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+	padding-top: 10px;
+	/* New Code Below */
+	background-image:url(/resources/images/footer-ftc-seal.jpg);
+	background-repeat:no-repeat;
+	background-color:#fff;
+}
+
+
+div#footer {
+	position: relative;
+	clear: both;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #3366CC;
+	font-size: 11px;
+/*	border-top: 3px solid #194579; */
+	width: 760px;
+	float: none;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	padding-top: 14px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+div#footer-message {
+	text-align:center;
+	color:#1d3b6d;
+	margin-top:54px;	
+}
+
+div#footer a {
+
+	font-size: 11px;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	color: #3366CC;
+
+	text-decoration: none;
+
+}
+
+div#footer a:hover {
+
+	font-size: 11px;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	color: #3366CC;
+
+	text-decoration: underline;
+
+}
+
+
+
+div#footer ul {
+
+	list-style: none;
+
+	display: inline;
+
+}
+
+
+
+div#footer ul li {
+
+	display: inline;
+
+} 
+
+
+
+div#footer ul li a {
+
+	font-size: 11px;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	color: #194579;
+
+	text-decoration: none;
+
+	padding: 0px 5px 0px 3px;
+
+	border-right: 1px solid #CCCCCC;
+
+}
+
+div#footer ul li a.last {
+
+	padding: 0px 0px 0px 3px;
+
+	border-right: 0px solid #CCCCCC;
+
+}
+
+div#footer ul li a:hover {
+
+	color: #3366CC;
+
+	text-decoration: underline;
+
+}
+
+
+
+div#footer span.date {
+
+	float: none;
+
+	color: #999999;
+
+	text-align: center;
+
+	border-top: 1px solid #CCCCCC;
+
+	margin-top: 0px;
+
+	margin-bottom: 0px;
+
+	padding-top: 2px;
+
+}
+
+
+
+div#postFooter {
+
+	position: relative;
+
+	clear: left;
+
+	text-align: center;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	padding: 5px 0px 10px;
+
+	margin: 0px;
+
+	font-size: 11px;
+
+	width: 100%;
+
+	float: none;
+
+}
+
+div#postFooter span.date {
+
+	float: none;
+
+	color: #999999;
+
+	text-align: center;
+
+	border-top: 1px solid #CCCCCC;
+
+	margin-top: 0px;
+
+	margin-bottom: 0px;
+
+	padding-top: 2px;
+
+}
+
+
+
+/*******************************************
+
+		 FTC ALERTBOX
+
+*******************************************/
+
+
+
+
+
+div#alertbox {
+
+	background-color:#d5e7fb;  /* #f9f0db */
+
+	border: 3px solid #c5b694; /*FF0000 */
+
+	padding:4px;
+
+	text-align:center;
+
+	margin-top: .4em;
+
+	margin-bottom: .5em;
+
+}
+
+
+
+div#alertbox p {
+
+	padding: 0px;
+
+    margin: 0px;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	line-height: 120%;
+
+	margin-top: .5em;
+
+	margin-bottom: .5em;
+
+	padding-bottom: .5em;
+
+	font-size: 100%;	
+
+	}
+
+
+/*******************************************
+		 FTC QUOTEBOX
+*******************************************/
+
+
+div#quotebox {
+	background-color:#FFFFFF;
+	border: 3px solid #FFFFFF;
+	padding:4px;
+	text-align:center;
+	margin-top: .4em;
+	margin-bottom: .5em;
+}
+
+div#quotebox p {
+	padding: 0px;
+    margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 120%;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	padding-bottom: .5em;
+	font-size: 100%;	
+	}
+	
+
+/*******************************************
+
+		CALCULATOR
+
+*******************************************/
+
+
+
+div#calcalert {
+
+	background-color:#f9f0db;
+
+	border: 1px solid #bc9022;
+
+	padding:4px;
+
+	margin-left:225px;
+
+	text-align:center;
+
+	margin-top: 7px;
+
+	margin-bottom: 15px;
+
+	width: 250px;
+
+	
+
+}
+
+
+
+div#calcdisclaim {
+
+	background-color:#f9f0db;
+
+	border: 1px solid #bc9022;
+
+	padding:4px;
+
+	text-align:center;
+
+	margin-top: .4em;
+
+	margin-bottom: .5em;
+
+	
+
+}
+
+
+
+div#calcdisclaim p{
+
+	padding: 0px;
+
+	margin: 0px;	
+
+}
+
+
+
+div#calcalert a, div#calcdisclaim a, div#calcdisclaim strong   {
+
+	color:#CC6600;
+
+	font-weight:bold;
+
+}
+
+/*  *********************Testing quickfinder*******************  */
+
+div#quickfinder {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	padding: 0px 0px 8px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width:172px;
+	border: 4px double #cdb278;
+	background:#F8F8F8;
+}
+
+
+
+div#quickfinder h2 {
+
+	padding: 3px 0px 3px 5px;
+	position: relative;
+	margin: 0px 0px 8px;
+	font: bold  115%/100% Verdana, Arial, Helvetica, sans-serif;
+	color:#cdb278; 
+	background: #194579; 
+	width: 167px;
+
+	}
+	
+
+div#quickfinder ul {
+
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+
+}
+
+div#quickfinder ul li {
+	margin: 0px;
+	padding-left: 5px;
+	padding-bottom: 1px;
+	list-style: none;
+}		
+
+div#quickfinder ul li img {
+
+	margin: 0px;
+	padding: 2px 6px;
+	vertical-align: middle;
+
+}
+
+div#quickfinder a {
+	padding: 0px;
+	margin: 0px;
+	color: #006699;
+	text-decoration: none;
+}
+
+div#quickfinder a:hover {
+	padding: 0px;
+	margin: 0px;
+	text-decoration: underline;
+	

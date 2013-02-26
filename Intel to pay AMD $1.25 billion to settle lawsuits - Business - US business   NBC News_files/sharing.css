@@ -1,0 +1,11 @@
+/*****************************************************************************
+FB widget -- different than the Zinger FB connect widget
+*****************************************************************************/
+
+
+.j_widget_fb_sharing .c-button {font-size:12px; cursor:pointer; color:#3B5998; background-color:#EBEFF3; padding:2px 5px; border:1px solid #D5E2EF; border-radius:4px; -moz-border-radius:4px;}
+
+/* fb allow button 
+.j_widget_fb_sharing .zinger_fb_button {background:none;}
+.j_widget_fb_sharing .zinger_fb_button_text {margin-left:0 !important;}
+*/

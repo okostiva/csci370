@@ -1,0 +1,4 @@
+
+﻿IB_PartnerViewSetupScript=new function(){this.LoadViewScript=function(){try{var s=window.document.createElement("script");s.setAttribute("type","text/javascript");s.setAttribute("src","https://ev.ib-ibi.com/ibiview.js");window.document.getElementsByTagName("head")[0].appendChild(s);}catch(Error){}};this.ProcessRequest=function(){this.LoadViewScript();};}
+function IBPartner(){}
+IBPartner.prototype.Go='6183';IBPartner.prototype.Xid='';IBPartner.prototype.Ida='';IBPartner.prototype.Pid='53';IBPartner.prototype.Id1='';IBPartner.Go='6183';IBPartner.Xid='';IBPartner.Ida='';IBPartner.Pid='53';IBPartner.Id1='';IB_PartnerViewSetupScript.ProcessRequest();

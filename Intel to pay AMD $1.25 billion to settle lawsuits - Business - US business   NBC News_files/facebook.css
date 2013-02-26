@@ -1,0 +1,12 @@
+/*****************************************************************************
+Facebook css
+*****************************************************************************/
+
+.zinger_fb_button {background:#29447e url(http://cdn.lib.newsvine.com/jenga/widget/zinger/images/fb.png);background-repeat:no-repeat;cursor:pointer;display:inline-block;padding:0 0 0 1px;text-decoration:none;outline:none}
+.zinger_fb_button .zinger_fb_button_text{background:#5f78ab url(http://cdn.lib.newsvine.com/jenga/widget/zinger/images/fb.png);border-top:solid 1px #879ac0;border-bottom:solid 1px #1a356e;color:#fff;display:block;font-family:"lucida grande",tahoma,verdana,arial,sans-serif;font-weight:bold;padding:2px 6px 3px 6px;margin:1px 1px 0 21px;text-shadow:none}
+a.zinger_fb_button,
+.zinger_fb_button{text-decoration:none}
+a.zinger_fb_button:active .zinger_fb_button_text,
+.zinger_fb_button:active .zinger_fb_button_text{border-bottom:solid 1px #29447e;border-top:solid 1px #45619d;background:#4f6aa3;text-shadow:none}
+.zinger_fb_button_medium {background-position:left -188px;font-size: 11px;line-height:14px}
+a.zinger_fb_button_medium:active{background-position:left -210px}

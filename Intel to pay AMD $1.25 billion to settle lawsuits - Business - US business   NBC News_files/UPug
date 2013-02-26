@@ -1,0 +1,2 @@
+document.write('<script type="text/javascript" src="http://ads.pubmatic.com/UniversalPixel/20977/60/pixel.js"></script>');
+document.write('<iframe name="pbeacon" frameborder="0" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" scrolling="no"  width="0"  height="0" style="position:absolute;top:-20000px;" src="http://ptrack.pubmatic.com/AdServer/PugTracker?pixId=60&pubId=20977&ran=0.5740174744278193&pmoo=0&dnt=0&pageURL=http%3A%2F%2Fwww.nbcnews.com%2Fid%2F33882559%2F&refURL=https%3A%2F%2Fwww.google.com%2F"></iframe>');

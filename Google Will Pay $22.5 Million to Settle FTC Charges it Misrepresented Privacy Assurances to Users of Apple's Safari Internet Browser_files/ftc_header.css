@@ -1,0 +1,414 @@
+body {
+  	behavior:  url("/resources/styles/csshover.htc"); /* WinIE behavior call */
+	background-position:top;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-color:#15274d;
+}
+div#header {
+	margin:0px auto 22px;
+	padding: 0;
+	background-image:  url(/resources/images/header-bkgd-seal-v2.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 780px;
+	height:208px; /* added to fit new banner */
+}
+
+div#header h1 {
+  	position: absolute; /* for the benefit of IE5 Mac */
+  	left: -2000px; 
+  	top: 0px; 
+  	height: 0;
+  	width: 0;
+  	overflow: hidden;
+	font: bold 160% Georgia, "Times New Roman", Times, serif;
+}
+
+
+div#skip a, div#skip a:hover, div#skip a:visited  { 
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+  font-size: 12px;
+  position: absolute; /* for the benefit of IE5 Mac */
+  left: -2000px; 
+  top: 0px; 
+  height: 0;
+  width: 0;
+  overflow: hidden;
+  }
+   
+div#skip a:active, div#skip a:focus 
+  {
+	position:static;
+	height:auto;
+	width: auto;
+	margin-right: 10px;
+}
+
+div#search {
+	height: 80px;
+	width: 100%;
+	text-align: right;
+	position: relative;
+	padding: 5px 0px 0px;
+} 
+div#search form {
+	margin: 5px 10px 5px 5px;
+	padding: 0px;
+
+} 
+div#search form input {
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	line-height: normal;
+	vertical-align: middle;
+
+} 
+div#search form input:focus {
+	background: #ffffcc;
+} 
+div#search form input.gobutton {
+	margin: 0px;
+	padding: 0px 0px 2px 5px;
+	border: 0px;
+	background-repeat: no-repeat;
+	background-image:  url("/resources/images/search.gif");
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #403111;
+	background-position: left center;
+	height: 20px;
+	width: 66px;
+	text-align: left;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+div#search form input.gobutton:hover {
+	color:#403111;
+	background-image:  url("/resources/images/search_over.gif");
+	background-repeat: no-repeat;
+	background-position: left center;
+
+}
+div#headLinks {
+	position: relative;
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #CCCCCC;
+	line-height: 15px;
+	border: 0px;
+	padding: 5px 15px;
+}
+
+div#headLinks ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+div#headLinks ul li {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+} 
+
+div#headLinks .bold {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+div#headLinks ul li a {
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #f8f0d9;
+	text-decoration: none;
+	padding: 0px 5px 0px 3px;
+	border-right: 1px solid #b3ad9b;
+	margin: 0px;
+}
+div#headLinks ul li a.last {
+	padding: 0px 0px 0px 3px;
+	border-right: 0px;
+	margin: 0px;
+}
+div#headLinks ul li a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	text-decoration: underline;
+	margin: 0px;
+}
+
+
+/* start tab navigation */
+
+div#tabs {
+	margin:0px;
+	padding:0px 0px 24px;
+	position: relative;
+	width: 100%;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	background-image:  url(/resources/images/tab_bkgd.gif);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+
+div#tabs ul { /* space so tabs appear centered - needs to change if tabs change */
+	margin: 0px 0px 0px 8px;
+	padding:0px;
+	list-style: none;
+	vertical-align: baseline;
+	font-size: 12px;
+}  
+
+div#tabs ul li {
+	margin: 0px 0px 0px 1px; /* spaces between tabs */
+	text-decoration:none;
+	list-style:none;
+	background: url("/resources/images/tab.gif") no-repeat 0px 0px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #806222;
+	float: left;
+	line-height: 24px;
+	padding:0px;
+	font-size: 12px;
+}
+
+div#tabs ul li.off a {
+    padding:4px 4px 5px 6px; /* tab word padding */
+	color:#403111;
+	text-decoration:none;
+}
+
+
+div#tabs ul li:hover {
+    background-position:0% -25px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #806222;
+}
+div#tabs ul li a:hover {
+    color:#403111;
+}
+div#tabs ul li.on {
+    background: url("/resources/images/tab.gif") no-repeat left top;
+    background-position:0% -50px;
+	margin: 0px 0px 0px 1px; /* space for on tab */
+    text-decoration:none;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #806222;
+}
+
+div#tabs ul li.on a {
+    margin:0px;
+    padding:4px 4px 5px 6px; /* tab word padding */
+	color: #403111;
+    text-decoration:none;
+}
+
+div#tabs ul li.on:hover { 
+    background-position:0% -25px;
+	border-right-color: #806222;
+}
+div#tabs ul li.on a:hover {
+	color: #403111;
+} 
+	  
+
+
+/*subnav formatting*/
+	    
+	  		
+div#tabs ul li ul {
+	display: none;
+	margin:0px auto;
+	padding:0px;
+	width: 780px;
+	position: absolute;
+	top: 24px;
+	list-style:none;
+	font-size: 11px;
+	font-weight: bold;
+	font-family: arial, verdana, sans-serif;
+}
+
+div#tabs ul li ul li {
+	line-height: 22px;
+}
+
+div#tabs ul li ul.left li {
+	float: left;
+}
+
+div#tabs ul li ul.right li {
+	float: right; /*menu items are in reverse order from the list because of the float right*/
+}
+
+
+/*subnav on-state formatting*/
+
+div#tabs ul li.on ul {
+	display: block;
+	left: 0px;
+	padding:0px;
+	margin:0px;
+	background-image: url("/resources/images/menu_bg.gif");
+	background-repeat: repeat-x;
+	background-position: bottom;
+	z-index: 5000;
+}
+
+div#tabs ul li.on ul li  {
+	padding:0px;
+	margin:0px;
+	background-image: url("/resources/images/menu_bg.gif");
+	background-repeat: repeat-x;
+	background-position: bottom;
+	border-width: 0px;
+}
+div#tabs ul li.on ul li a {
+	margin:0px;
+	color: #664e1c;
+	padding: 0px 5px 0px 6px;
+	border-right: 1px solid #4d3b15;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+
+div#tabs ul li.on ul li a.end {
+	border-right: 0px;
+}
+
+div#tabs ul li.on:hover ul {
+	background-image:url("/resources/images/menu_bg_over.gif");
+	background-repeat: repeat-x;
+	background-position: bottom;
+	padding:0px;
+	margin:0px;
+	z-index: 6000;
+}
+div#tabs ul li.on:hover ul li {
+	background-image:none;
+}
+
+/*div#tabs ul li ul li a.lang {
+	color: #C00;
+}*/
+
+div#tabs ul li.on:hover ul li a {
+	background-image:none;
+	margin:0px;
+	color: #664e1c;
+	border-right: 1px solid #4d3b15;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+
+
+
+div#tabs ul li.on ul li a:hover  { /*subnav on-state hover links*/
+	background-image:url("/resources/images/menu_bg_hover.gif");
+	background-repeat: repeat-x;
+	background-position: bottom;
+	color: #403111;
+	display: block;
+	border-right: 1px solid #4d3b15;
+}
+	
+div#tabs ul li.on:hover ul li a.end {
+	border-right: 0px;
+}	
+	
+/*subnav off-state formatting*/
+
+div#tabs ul li.off ul { 
+	left: 0px;
+	margin:0px;
+	padding:0px;
+	background-image: url("/resources/images/menu_bg_over.gif");
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+div#tabs ul li.off:hover ul {
+	display: block;
+	z-index: 6000;
+	background-image: url("/resources/images/menu_bg_over.gif");
+	background-repeat: repeat-x;
+	background-position: bottom;
+	margin:0px;
+	padding:0px;
+}
+
+div#tabs ul li.off:hover ul li {
+	background-image: url("/resources/images/menu_bg_over.gif");
+	background-repeat: repeat-x;
+	background-position: bottom;
+	padding: 0px;
+	margin:0px;
+	border-width: 0px;
+}
+
+div#tabs ul li.off:hover ul li a {
+	margin:0px;
+	color: #664e1c;
+	padding: 0px 5px 0px 6px;
+	border-right: 1px solid #4d3b15;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+
+div#tabs ul li.off:hover ul li a.end {
+	border-right: 0px;
+}
+
+div#tabs ul li.off ul li a:hover { 
+	background-image:url("/resources/images/menu_bg_hover.gif");
+	background-repeat: repeat-x;
+	background-position: center;
+	color: #403111;
+	display: block;
+	border-right: 1px solid #4d3b15;
+}
+
+/* end of subnav off-state formatting */
+
+div#tabs ul li ul li a.end:hover {
+	border-right: 0px;
+}
+
+/* begin formating for subnav right & left margins*/
+div#tabs ul li ul li.lspace {
+	margin: 0px 0px 0px 5px; /* left margin */
+}
+div#tabs ul li.on:hover ul li.lspace {
+	margin: 0px 0px 0px 5px; /* left margin */
+}
+div#tabs ul li.off:hover ul li.lspace {
+	margin: 0px 0px 0px 5px; /* left margin */
+}
+
+div#tabs ul li ul li.rspace {
+	margin: 0px 5px 0px 0px; /* right margin */
+}
+div#tabs ul li.on:hover ul li.rspace {
+	margin: 0px 5px 0px 0px; /* right margin */
+}
+div#tabs ul li.off:hover ul li.rspace {
+	margin: 0px 5px 0px 0px; /* right margin */
+}
+
+
+/* end of formating for subnav right & left margins*/
+
